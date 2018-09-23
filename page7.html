@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>page6.formulaire</title>
+    <link rel="stylesheet" href="stylepage7.css" type="text/css" />
+  </head>
+  <body>
+    <form method="post" action="traitement.php" />
+
+   <fieldset class="blue">
+
+       <legend id="blue">Votre identité</legend> <!-- Titre du fieldset -->
+
+  <ol>
+      <li><label for="nom">Nom :</label>
+
+       <input type="text" name="nom" id="nom" placeholder="nom" /></li>
+
+
+      <li><label for="prenom">Prénom :</label>
+
+       <input type="text" name="prenom" id="prenom" placeholder="Prénom" /></li>
+
+
+       <li><label for="email">Adresse mail :</label>
+
+       <input type="email" name="email" id="email" placeholder="Adresse mail" /></li>
+
+</ol>
+
+   </fieldset>
+
+   <fieldset class="violet">
+
+       <legend id="violet">Adresse de livraison</legend> <!-- Titre du fieldset -->
+
+  <ol>
+      <li><label for="adresse">Adresse :</label>
+
+       <textarea style="width:200px; height: 100px;" type="text" name="adresse" id="adresse" /></textarea></li>
+
+
+      <li><label for="code postal">Code postal :</label>
+
+       <input type="text" name="code postal" id="code postal" placeholder="Code postal" /></li>
+
+
+       <li><label for="ville">ville :</label>
+
+       <input type="text" name="ville" id="email" placeholder="ville"/></li>
+
+  </ol>
+
+   </fieldset>
+
+   <fieldset class="rose">
+
+       <legend id="rose">Informations de réglement</legend> <!-- Titre du fieldset -->
+
+  <ol>
+      <li><label for="type">Type de carte bancaire :</label>
+
+       <input type="text" name="type" id="type"/></li>
+
+       <input type="radio" name="visa" id="visa" /> <label for="visa">Visa</label><br />
+       <input type="radio" name="mastercard" id="mastercard" /> <label for="mastercard">Mastercard</label><br />
+
+      <li><label for="number card">Numéro de carte:</label>
+
+       <input type="text" name="number card" id="number card" placeholder="Numéro de carte" /></li>
+
+
+       <li><label for="code de sécurité">Code de sécurité:</label>
+
+       <input type="text" name="code de sécurité" id="code sécurité" placeholder="Code de sécurité" /></li>
+
+       <li><label for="nom du titulaire">Nom du titulaire:</label>
+
+       <input type="text" name="nom du titulaire" id="nom du titulaire" placeholder="Nom du titulaire" /></li>
+  </ol>
+
+   </fieldset>
+   <input type="button" value="J'achète !">
+  </body>
+</html>
